@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="shortcut icon" href="assets/imgs/logoAlura2.png" type="image/x-icon">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./assets/imgs/logoAlura.png" alt="Logo da Alura">
+    </header>
+
+    <main class="apresentacao-conteudo">
+        <section id="conteudo-texto">
+            <textarea cols="41" class="campo-texto" rows="4"placeholder="Digite seu texto"></textarea>
+            <div>
+                <p class="informacao">Apenas letras minúsculas e sem acento.</p>
+            </div>
+
+            <div class="conteudo-botoes">
+                <button class="btn-encriptar" onclick="criptografar()">Criptografar</button>
+                <button class="btn-desencript" onclick="descriptografar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="exibicao" >
+            <img src="./assets/imgs/lupa.png" alt="boneco com lupa na mao">
+            <h2><b>Nenhuma mensagem encontrada</b></h2>
+            <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+            
+        </section>
+    </main>
+        <footer class="rodape">
+            <div class="redes-rodape">
+                <a class="imagem-rodape" href="https://github.com/MateusRamos16" target="_blank"><img src="./assets/imgs/github.png"></a>
+                <a class="imagem-rodape" href="https://www.linkedin.com/in/mateus-ramos-dev/" target="_blank"><img src="./assets/imgs/linkedin.png"></a>
+                <h3>Desenvolvido por Mateus Ramos</h3>
+            </div>
+        </footer>
+    <script src="assets/script/script.js"></script>
+</body>
+</html>
