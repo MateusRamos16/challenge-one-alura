@@ -21,13 +21,20 @@
 
 body{
     background-color: #E5E5E5;
+    max-width: 1920px;
+    max-height: 1080px;
+   
+}
+body ::-webkit-scrollbar{
+    display:none;
 }
 main{
     display:flex;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     margin-left: 80px;
-    margin-right: 80px;
-    justify-content: space-between;
+    margin-right: 160px;
+    margin-top: 0px;
+    justify-content: space-between;    
 }
 
 .campo-texto{
@@ -52,7 +59,7 @@ main{
     justify-content: space-between;
     margin-top: 1%;
     color: #495057;
-    font-size: 12px;
+    font-size: 16px;
 }
 .exibicao{
     text-align: center;
@@ -64,7 +71,7 @@ main{
     border: 3px solid white;
     border-radius: 32px;
     width: 400px;
-    height: 944px;
+    height: 715px;
     margin-right: 3%;
     text-decoration: none;
 }
@@ -137,7 +144,7 @@ main{
     cursor: pointer;
     margin: 0;
     position:relative;
-    margin-top: 100%;
+    margin-top: 60%;
     margin-left: 8%;
     transition: transform 0.3s ease-in-out; 
 
