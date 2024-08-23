@@ -26,7 +26,8 @@ main{
     display:flex;
     margin-bottom: 50px;
     margin-left: 80px;
-    
+    margin-right: 80px;
+    justify-content: space-between;
 }
 
 .campo-texto{
