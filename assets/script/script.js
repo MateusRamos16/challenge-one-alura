@@ -23,4 +23,11 @@ function descriptografar(){
         let textoCop = document.getElementById('input-texto').value;
         navigator.clipboard.writeText(textoCop);
         alert('Copiado com sucesso!');
+
+        let limpar = prompt("Deseja limpar a tela? S/N");
+
+        if(limpar = "S"){
+            document.getElementById('input-texto').innerHTML = "";
+            document.querySelector('.campo-texto').value ="";
+        }
     }
