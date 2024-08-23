@@ -23,7 +23,7 @@ body{
     background-color: #E5E5E5;
     max-width: 1920px;
     max-height: 1080px;
-   
+    overflow-y: hidden;
 }
 body ::-webkit-scrollbar{
     display:none;
